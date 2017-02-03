@@ -25,7 +25,7 @@ disqus:
   id:               "mislavjavor"
 
 # URL
-url:                "mislavjavor.com" # use this url when you develop
+url:                "http://mislavjavor.com/" # use this url when you develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
 
