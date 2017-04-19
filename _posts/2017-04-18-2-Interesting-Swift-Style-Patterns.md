@@ -45,7 +45,7 @@ the semantic purpose of the struct is
 
 ```swift
 struct ColorUtilities { private init(){}
-    static func darkenColor(color: UIColor) {
+    static func darkenColor(color: UIColor) -> UIColor{
         // implemntation
     }
 }
@@ -54,6 +54,36 @@ struct Constants { private init(){}
     static let baseURL = "https://api.mysite.com/v1/"
 }
 ```
+
+EDIT: Some commenters made good remarks about alternate approaches to this problem. 
+I'll put them in the addition:
+
+## 2.1. Using @available attribute
+
+```swift
+@available(*, unavailable, message: "Don't even think about it")
+init() { }
+```
+
+## 2.2. Using enums instead
+
+Since, in Swift, empty enums don't have a constructor (empty meaning an enum without any `case` clauses) - they can be used
+as static "namespace" types. Only thing this won't allow you to do - is to add a `StructName.shared` type singleton if at
+a later point you need some configuration
+
+```swift
+enum ColorUtilities {
+    static func darkenColor(color: UIColor) -> UIColor {
+    
+    }
+}
+```
+
+## 2.3. Extensions
+
+While some propsed extensions to existing types for store of info, I don't like that approach since extensions are, by default,
+pollutatns. I do think they have a place and a purpose - but they can be detrimental to your code quality - specially if you're
+building a framework
 
 # Conclusion
 
