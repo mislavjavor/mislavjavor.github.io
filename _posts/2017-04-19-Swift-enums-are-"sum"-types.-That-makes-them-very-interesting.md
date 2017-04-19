@@ -60,6 +60,8 @@ possible values.
 
 In general, without going into type theory notation, we can define a function $N_{pv}$ which for a given type - returns the number of possible
 values that type has. So:
+
+{$ raw $}
 \[
 N_{pv}(Bool) = 2
 \]
@@ -69,6 +71,7 @@ N_{pv}(Int8) = 256
 \[
 N_{pv}(String) = \infty
 \]
+{% endraw %}
 
 The conclusion that $N_{pv}(String) = \infty$ has certain implications in
 the way we think about types, but those can be omitted for the current
@@ -78,9 +81,11 @@ If we use the $N_{pv}$ function - we can express a general case for all product 
 
 Let's assume there exists type $T$ which has constituent parts $T_1, T_2, T_3, ... , T_n$. $T$ can be considered a product type if:
 
+{% raw %}
 \[
 N_{pv}(T) = N_{pv}(T_1) \times N_{pv}(T_2) \times N_{pv}(T_3) \times ... \times N_{pv}(T_n)
 \]
+{% endraw %}
 
 Or in a more proper notation:
 
