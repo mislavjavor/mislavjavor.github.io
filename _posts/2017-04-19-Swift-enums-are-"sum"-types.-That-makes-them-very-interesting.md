@@ -140,10 +140,18 @@ Now what is the number of possible values of `SumExampleTwo`? It's the
 *sum* of possible values of `Bool` and `Int8`. So
 
 \\[
-N_{pv}(Bool) = 2 \\
-N_{pv}(Int8) = 256 \\
-N_{pv}(SumExampleTwo) = N_{pv}(Bool) + N_{pv}(Int8) \\
-N_{pv}(SumExampleTwo) = 2 + 256 \\
+N_{pv}(Bool) = 2
+\\]
+\\[
+N_{pv}(Int8) = 256
+\\]
+\\[
+N_{pv}(SumExampleTwo) = N_{pv}(Bool) + N_{pv}(Int8)
+\\]
+\\[
+N_{pv}(SumExampleTwo) = 2 + 256
+\\]
+\\[
 N_{pv}(SumExampleTwo) = 258
 \\]
 
