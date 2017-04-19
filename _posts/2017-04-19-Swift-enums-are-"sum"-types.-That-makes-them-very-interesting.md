@@ -61,17 +61,15 @@ possible values.
 In general, without going into type theory notation, we can define a function $$N_{pv}$$ which for a given type - returns the number of possible
 values that type has. So:
 
-{% raw %}
-\[
+\\[
 N_{pv}(Bool) = 2
-\]
-\[
+\\]
+\\[
 N_{pv}(Int8) = 256
-\]
-\[
+\\]
+\\[
 N_{pv}(String) = \infty
-\]
-{% endraw %}
+\\]
 
 The conclusion that $$N_{pv}(String) = \infty$$ has certain implications in
 the way we think about types, but those can be omitted for the current
@@ -87,13 +85,10 @@ N_{pv}(T) = N_{pv}(T_1) \times N_{pv}(T_2) \times N_{pv}(T_3) \times ... \times 
 
 Or in a more proper notation:
 
-{% raw %}
-
-\[
+\\[
 N_{pv}(T) = \prod_{i = 1}^{n}N_{pv}(T_i)
-\]
+\\]
 
-{% endraw %}
 
 
 ## Sum types
@@ -144,27 +139,27 @@ enum SumExampleTwo {
 Now what is the number of possible values of `SumExampleTwo`? It's the
 *sum* of possible values of `Bool` and `Int8`. So
 
-\[
+\\[
 N_{pv}(Bool) = 2 \\
 N_{pv}(Int8) = 256 \\
 N_{pv}(SumExampleTwo) = N_{pv}(Bool) + N_{pv}(Int8) \\
 N_{pv}(SumExampleTwo) = 2 + 256 \\
 N_{pv}(SumExampleTwo) = 258
-\]
+\\]
 
 Expressing a general case:
 
 Let's assume there exists a type $$T$$ with constituent parts $$T_1, T_2, T_3, ... , T_n$$ . $$T$$ can be considered a sum type if:
 
-\[
+\\[
 N_{pv}(T) = N_{pv}(T_1) + N_{pv}(T_2) + N_{pv}(T_3) + ... + N_{pv}(T_n) \\
-\]
+\\]
 
 or in a more proper notation:
 
-\[
+\\[
 N_{pv}(T) = \sum_{i = 1}^{n}N_{pv}(T_i)
-\]
+\\]
 
 ## How can I use it to write better code?
 
