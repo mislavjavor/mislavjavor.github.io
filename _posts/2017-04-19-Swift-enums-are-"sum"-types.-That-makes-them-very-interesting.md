@@ -34,7 +34,7 @@ So a `Bool` type can have 2 possible values. `ProductExample` has 2 `Bool`
 types. We can get the number of possible values of `ProductExample` by
 multiplying the number of possible values of `Bool` `a` with the number
 of possible values of `Bool` `b`. So the number of possible values of
-`ProductExample` is $2 \times 2$ which is $4$
+`ProductExample` is $$2 \times 2$$ which is $$4$$
 
 This is evident with all the possible instances of the type:
 
@@ -55,13 +55,13 @@ struct ProductExampleTwo {
 ```
 
 Now our type `ProductExampleTwo` has the number of possible values which
-is a multiple of `Bool` and `Int8`. `Int8` has $256$ possible values, `Bool` has $2$ possible values. So our `ProductExampleTwo` has $512$
+is a multiple of `Bool` and `Int8`. `Int8` has $$256$$ possible values, `Bool` has $$2$$ possible values. So our `ProductExampleTwo` has $$512$$
 possible values.
 
-In general, without going into type theory notation, we can define a function $N_{pv}$ which for a given type - returns the number of possible
+In general, without going into type theory notation, we can define a function $$N_{pv}$$ which for a given type - returns the number of possible
 values that type has. So:
 
-{$ raw $}
+{% raw %}
 \[
 N_{pv}(Bool) = 2
 \]
@@ -73,19 +73,17 @@ N_{pv}(String) = \infty
 \]
 {% endraw %}
 
-The conclusion that $N_{pv}(String) = \infty$ has certain implications in
+The conclusion that $$N_{pv}(String) = \infty$$ has certain implications in
 the way we think about types, but those can be omitted for the current
 article without compromising the general message
 
-If we use the $N_{pv}$ function - we can express a general case for all product types.
+If we use the $$N_{pv}$$ function - we can express a general case for all product types.
 
-Let's assume there exists type $T$ which has constituent parts $T_1, T_2, T_3, ... , T_n$. $T$ can be considered a product type if:
+Let's assume there exists type $$T$$ which has constituent parts $$T_1, T_2, T_3, ... , T_n$$. $$T$$ can be considered a product type if:
 
-{% raw %}
-\[
+\\[
 N_{pv}(T) = N_{pv}(T_1) \times N_{pv}(T_2) \times N_{pv}(T_3) \times ... \times N_{pv}(T_n)
-\]
-{% endraw %}
+\\]
 
 Or in a more proper notation:
 
@@ -106,7 +104,7 @@ Simple - **Sum types (in swift) are enums!**
 possible values of it's constituent parts**
 
 Now that we know how to deal with the algebraic view of types, and have
-our $N_{pv}$ function handy - let's explore the world of sum types with
+our $$N_{pv}$$ function handy - let's explore the world of sum types with
 examples.
 
 ```swift
@@ -125,9 +123,9 @@ let third = SumExample.a(false)
 let fourth = SumExample.b(false)
 ```
 
-There are $4$ ways to instantiate the `SumExample` enum. This number comes
-from the fact that $N_{pv}(Bool) = 2$ and that `SumExample` contains two
-`Bool` types and that $2 \times 2 = 4$
+There are $$4$$ ways to instantiate the `SumExample` enum. This number comes
+from the fact that $$N_{pv}(Bool) = 2$$ and that `SumExample` contains two
+`Bool` types and that $$2 \times 2 = 4$$
 
 Let's examine a different example:
 
@@ -151,7 +149,7 @@ N_{pv}(SumExampleTwo) = 258
 
 Expressing a general case:
 
-Let's assume there exists a type $T$ with constituent parts $T_1, T_2, T_3, ... , T_n$ . $T$ can be considered a sum type if:
+Let's assume there exists a type $$T$$ with constituent parts $$T_1, T_2, T_3, ... , T_n$$ . $$T$$ can be considered a sum type if:
 
 \[
 N_{pv}(T) = N_{pv}(T_1) + N_{pv}(T_2) + N_{pv}(T_3) + ... + N_{pv}(T_n) \\
