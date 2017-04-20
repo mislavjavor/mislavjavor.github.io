@@ -125,7 +125,7 @@ let fourth = SumExample.b(false)
 
 There are $$4$$ ways to instantiate the `SumExample` enum. This number comes
 from the fact that $$N_{pv}(Bool) = 2$$ and that `SumExample` contains two
-`Bool` types and that $$2 \times 2 = 4$$
+`Bool` types and that $$2 + 2 = 4$$
 
 Let's examine a different example:
 
