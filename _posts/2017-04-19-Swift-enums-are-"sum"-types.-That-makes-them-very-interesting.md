@@ -2,7 +2,7 @@
 
 # Algebraic types - what are they?
 
-Algebraic types... seems like the kind of math-y work Haskell programmers
+Algebraic types... seems like the kind of math-y word Haskell programmers
 would use. But in reality you don't need to know type theory or have a
 PhD in mathematics to understand them. Algebraic types arent *new* types. They are simply a new way of thinking
 about the types you already know about.
