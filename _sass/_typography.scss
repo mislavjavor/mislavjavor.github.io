@@ -63,9 +63,9 @@ h2 { font-size: 2em; }
 h3 { font-size: 1.33em; }
 h4 { font-size: 1.33em; color: $oc-gray-6; }
 h5 { font-size: 1em; }
-h6 { 
-  font-size: 1em; 
-  color: $oc-gray-6; 
+h6 {
+  font-size: 1em;
+  color: $oc-gray-6;
   -webkit-margin-before: 1.67em;
   -webkit-margin-after: 1.67em;
 }
@@ -85,7 +85,7 @@ p {
   -------------- */
 
 //  Reset list
-ol, 
+ol,
 ul,
 dl {
   margin: 0 0 1em;
@@ -95,7 +95,7 @@ dl {
 }
 
 //  Positioning Bullets
-ol, 
+ol,
 ul {
   > li {
     &:before {
@@ -135,12 +135,12 @@ ol {
 }
 
 //  Refine Spacing
-ol, 
+ol,
 ul {
   > li {
     margin: 0 auto $li-bottom-space $li-bullets-width;
     line-height: $li-line-height;
-    
+
     > ol,
     > ul {
       margin-top: $li-bottom-space;
@@ -183,7 +183,7 @@ dd {
 }
 
 /*--------------
-  
+
   -------------- */
 
 hr {
@@ -292,6 +292,7 @@ pre code {
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
+  box-shadow: 3px 5px 5px #eee;
 }
 
 .highlight pre {

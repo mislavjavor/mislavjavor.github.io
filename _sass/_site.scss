@@ -166,7 +166,7 @@ body {
 .list {
   &-post {
     padding: 4% 2%;
-    
+
     &:hover {
       background-color: $background-over-color;
       border-color: transparent;
@@ -359,4 +359,11 @@ body {
       margin: 4px;
     }
   }
+}
+
+#mc_embed_signup {
+  background: #f8f9fa;
+  border-radius: 5px;
+  margin-top: 100px;
+  box-shadow: 3px 3px 20px #ccc;
 }
