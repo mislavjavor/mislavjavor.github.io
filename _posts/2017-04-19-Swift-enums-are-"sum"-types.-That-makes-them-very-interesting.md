@@ -125,7 +125,7 @@ let fourth = SumExample.b(false)
 
 There are $$4$$ ways to instantiate the `SumExample` enum. This number comes
 from the fact that $$N_{pv}(Bool) = 2$$ and that `SumExample` contains two
-`Bool` types and that $$2 \times 2 = 4$$
+`Bool` types and that $$2 + 2 = 4$$
 
 Let's examine a different example:
 
@@ -174,7 +174,7 @@ N_{pv}(T) = \sum_{i = 1}^{n}N_{pv}(T_i)
 All this theoretical stuff is fine and dandy - but let's see a little bit
 of practical examples.
 
-So in general you wan't to follow the mantra: <br/>
+So in general you want to follow the mantra: <br/>
 The number of possible values of your type should be equal to the number
 of possible values of your use case.
 
@@ -315,8 +315,8 @@ extension Router {
 }
 ```
 
-Your router could use this pattern to expose everything from paramteres,
-headers, request types etc...
+Your router could use this pattern to expose everything from parameters,
+headers, request types, etc...
 
 And now a theme patten if you need themes:
 
