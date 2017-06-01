@@ -55,13 +55,15 @@ Functions, being true first-class citizens are declared in a very
 similar way
 
 ```ocaml
-let createHelloWorld =
-    let hello = "Hello"
-    let world = "World"
+let createHelloWorld () =
+    let hello = "hello"
+    let world = "world"
     hello + " " + world
-    
-createHelloWorld
+
+createHelloWorld ()
 ```
+
+
 
 In this example the `let` keyword creates a function which takes
 zero arguments and returns a `string`. It returns `"Hello world"` every
@@ -275,3 +277,6 @@ platforms. Here are some examples:
 - On mobile - you can use Xamarin
 
 - On web - you can use ASP.NET
+
+
+Thanks to Reddit user /u/FinnNk for pointing out some errors
