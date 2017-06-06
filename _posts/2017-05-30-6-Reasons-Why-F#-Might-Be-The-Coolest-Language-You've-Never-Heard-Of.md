@@ -1,3 +1,8 @@
+---
+layout: post
+title: 6 Reasons Why F# Might Be The Coolest Language You've Never Heard Of
+---
+
 <img src="http://fsharp.org/img/logo/fsharp256.png"/>
 
 # Introduction
