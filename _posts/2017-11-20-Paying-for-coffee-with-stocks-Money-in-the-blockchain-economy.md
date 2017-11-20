@@ -3,6 +3,8 @@ layout: post
 title: Paying for coffee with stocks. Money in the blockchain economy
 ---
 
+<img src="https://i.imgur.com/E23u4xe.jpg"/>
+
 > I love money. I love everything about it. I bought some pretty good stuff. Got me a $300 pair of socks. Got a fur sink. An electric dog polisher. A gasoline powered turtleneck sweater. And, of course, I bought some dumb stuff, too. --Steve Martin
 
 ## Temples and thieves
