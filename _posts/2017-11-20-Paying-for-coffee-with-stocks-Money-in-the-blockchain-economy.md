@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paying for coffee with stocks. Money in the blockchain economy
+title: Paying for coffee with stocks? The new meaning of money in the blockchain economy
 ---
 
 <img src="https://i.imgur.com/E23u4xe.jpg"/>
