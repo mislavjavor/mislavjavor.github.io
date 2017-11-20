@@ -3,9 +3,9 @@ title: About
 permalink: /about/
 ---
 
-I'm a software developer, musician and an audio engineer. I work as an iOS Lead
-developer at [Ingemark](http://www.ingemark.com)
+I'm a software developer specialising in blockchain development on the Ethereum (EVM) platform. Part of a blockchain startup looking to revolutionize the production of electricity and the head of an Ethereum smart-contract development consultancy.
 
-Contact me at:
+If you have a need for blockchain in your business, from planning to full implementation,
+contact me at:
 
 [mislav.javor@outlook.com](mailto:mislav.javor@outlook.com)
