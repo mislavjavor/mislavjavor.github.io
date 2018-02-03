@@ -7,9 +7,11 @@ tags: [blockchain, utility-token, utility, ampnet, ethereum, ether, smart contra
 comments: true
 ---
 
+![Blockchain](https://i.imgur.com/RD78f4f.jpg)
+
 # Introduction
 
-As we march steadily into 2018, the ICO craze shows no signs of slowing down. More and more blockchain projects appear every single day. Some look like they'll change entire industries, some have a niche (but useful) application and some are outright scams.
+As we march steadily into 2018, the crypto craze shows no signs of slowing down. More and more blockchain projects appear every single day. Some look like they'll change entire industries, some have a niche (but useful) application and some are outright scams.
 
 Most of these projects use token issuance on the blockchain to raise funds through an initial coin offering (ICO). Now to get this out of the way, I think ICOs are great! They promise quick liquidity, immutable contract guarantees and most of all - they democratize access to investment capital (something that has always led to an increase in worldwide productivity).
 
@@ -75,6 +77,10 @@ When the tokens represent ownership of the company, they are bound by various "r
 
 Sometimes these tokens represent shares in physical assets such as gold or oil. In these situations, the purpose of the blockchain platform is to provide simple trading environment for all participants
 
+#### Utility tokens
+
+Utility tokens are used for performing various activities on their platform of issuance. We've described them in the video stabilization example.
+
 ## Why utility tokens?
 
 Now with all this in mind, a question must be asked - *why do utility tokens dominate the blockchain landscape?*
@@ -105,7 +111,35 @@ When you're issuing a utility token, you fall under much much milder law structu
 
 It also allows various classes of investors who would otherwise be ineligible for investments, to invest in you hot disruptive up-and-coming blockchain startup.
 
+*Quick disclaimer - this is not the only reason companies do this. There used to be a time in the blockchain world when everyone thought utility tokens would be the "next big thing" in finance. Some companies from those times carry them as a legacy. Although they should also get rid of them*
+
 ## A case against utility tokens
+
+So whats the problem with utility tokens? In theory, nothing. In practice? Everything.
+
+Loads of new companies are bending their necks trying to find any even remotely reasonable way to incorporate utility tokens into their projects.
+
+Even if these projects would thrive as DAOs or even classic companies with a normal shareholder structures, they implement barely useful tokens into their platforms to get a hold of ICO money. 
+
+As business plans get more and more convoluted, the potential user needs to wonder - why the hell would I want to use your XYZ token to pay for things? Why can't I just pay with Bitcoin, Ether or some fiat-backed token?
+
+So when I want to use your platform I first have to convert my money to your token and only then can I do anything? Why would I show such a high level of involvement for your platform?
+
+If this is the future of payments, the future is worse than the present.
+
+There are various structures which can be employed to develop reasonably governed blockchain platforms. The key aspect is to separate the user from the investor. 
+
+Let users decide with what they want to pay. Let investors buy tokens which represent ownership of either the protocol or the company. 
+
+Oh and... *don't rob your investor of voting rights*. This is another interesting fact about most utility tokens - the holders get almost no voice on the future of the network you're investing. 
+
+Imagine if you sold the shares in your company to someone and then ripped them of all of their shareholder rights? They have no rights to vote, no payouts as dividends, no legal assurances. All they have is an ICO token which they can hope appreciates in value. 
+
+Since I abide by the "live and let live" philosophy, I don't think utility tokens should be banned nor punished. Sometimes they serve a legitimate purpose (In cases when the use case asks for a more specific type of currency), but mostly they're used because they're the simplest solutions. 
+
+To all the devs and CxOs - *your investors deserve better*
+
+*In the next article "Democratically Mutable DAOs", we'll discuss one way of monetizing a blockchain project which provides a more fair framework for the investors*
 
 
 
